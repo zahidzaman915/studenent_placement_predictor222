@@ -1,0 +1,27 @@
+{
+  "model": "LogisticRegression",
+  "version": "v1",
+  "C": 0.1,
+  "threshold": 0.37,
+  "features": [
+    "CGPA",
+    "technical_skills",
+    "soft_skills",
+    "international_certificates",
+    "extracurricular_activities",
+    "club_membership",
+    "real_world_projects",
+    "past_work_experience",
+    "problem_solving_skills",
+    "communication_skills"
+  ],
+  "sklearn": "1.9.0",
+  "test_metrics": {
+    "accuracy": 0.793,
+    "precision": 0.654,
+    "recall": 0.742,
+    "f1": 0.695,
+    "roc_auc": 0.873,
+    "pr_auc": 0.768
+  }
+}
